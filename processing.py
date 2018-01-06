@@ -259,7 +259,7 @@ patternlist={}
 for k in range(1,t):
 	name=namelist[k]
 	print(name)
-	w=zigzag(stocklist[name],0.1)
+	w=zigzag(stocklist[name],0.05)
 	print(w)
 	p=findCH(stocklist[name],w,datelist)
 	patternlist[name]=p
